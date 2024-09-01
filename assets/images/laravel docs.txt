@@ -1,0 +1,16 @@
+CRUD in laravel
+
+1.create database in mysql
+2.create laravel project through terminal or comand prompt
+3.connect DB with this project through env file
+4.create tables in terminal or CMD with migration
+	=> php artisan make:model product -m
+
+5.open migration file and write column name,save 
+6.run migration in terminal or CMD through 
+	=> php artisan migrate:fresh
+7.create controller where we can write all function
+	=> php artisan make:contreller ProductController
+
+8.route->web.php-> 
+9.create view file 

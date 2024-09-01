@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.calender {
+    height: 100vh; /* Full height of the viewport */
+}
+.container{
+    border: 1px solid red;
+    border-radius: 0.5rem;
+}
+body{
+    min-height: 100vh;
+}
+.month{
+    font-size: 1 rem;
+    font-weight: 400;
+}
+.nav-link {
+    cursor: pointer;
+}
+span i{
+    color: black;
+    font-weight: bold;
+}
